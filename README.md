@@ -1,2 +1,2 @@
 # Personal-Website
-My Information Website
+A simple and basic website that showcases a resume, portfolio, about section, and more. It's open to everyone who wants to use it as a template for their own website. You only need to have a basic understanding of HTML, CSS, and JavaScript to get started. Feel free to clone the repo and make it your own. Keep your portfolio up-to-date and showcase your skills to potential employers or clients.

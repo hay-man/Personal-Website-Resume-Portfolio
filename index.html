@@ -10,10 +10,16 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <style>
+    #home {
+      padding-top: 70px;
+    }
+    </style>
+
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button
@@ -32,7 +38,7 @@
           <a class="navbar-brand" href="#">Jahong Liu</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="#home">Home</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -43,8 +49,34 @@
         </div>
       </div>
     </nav>
+
+    <!-- HOME SECTION -->
+    <section id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-1 col-md-2 col-sm-3">
+            <img
+              src="Media/Me.png"
+              class="img-responsive img-circle"
+              alt="about image"
+            />
+          </div>
+
+          <div class="col-md-8 col-sm-8">
+            <h1>Welcome to My Home Page</h1>
+            <h2>
+              <p>This is Jahong Liu, I'm a Computer Science Align Graduate Student @Northeastern University.</p>
+              <p>I'm actively seeking Software Develoment Engineer Internship</p>
+            </h2>
+            <a href="#" class="btn btn-default section-btn">My Resume</a>
+            <a href="#" class="btn btn-default section-btn">My Github</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Home -->
-    <h1>Welcome to My Home Page</h1>
+    <!-- <h1>Welcome to My Home Page</h1>
     <hr />
     <img src="Media/Me.png" style="width: 150px; height: auto" />
     <h2>
@@ -52,7 +84,7 @@
         This is Jahong Liu, I'm a Computer Science Align Graduate Student
         @Northeastern University.
       </p>
-      <p>I'm actively seeking Software Develoment Engineer Internship</p>
+      <p>I'm actively seeking Software Develoment Engineer Internship</p> -->
     </h2>
     <!-- Education -->
     <hr />
